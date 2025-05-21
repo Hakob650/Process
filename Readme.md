@@ -17,8 +17,11 @@
         void(*ptr)(int)-pointer that shows to a function which return type is void and gets an int as argument
 
 3.Alarm-Handler Function-when SIGALRM is recieved,this function runs.
+                         
                          fork() creates a new process(pid<0-for failed,pid==0-child process,pid>0-parent process).
+                         
                          execlp is used for changing the process image with aplay to play the file.if fails,it prints an error and beeps(\a).
+                         
                          waitpid()-parent process waits for the child process to finish.
            
                         void alarm_handler(int sig) {
