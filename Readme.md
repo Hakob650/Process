@@ -31,7 +31,7 @@
 
 4.Main Function`
 
-                        ptr=sigalrm_handle; //assgns the handler to function pointer.
+                        ptr=sigalrm_handle; //assigns the handler to function pointer.
                         signal(SIGALRM,ptr); //registers it as handler for SIGALRM using signal()
                         alarm(seconds); //Schedules the alarm for seconds in the future
                         pause(); //suspends the process untill a signal is caught
